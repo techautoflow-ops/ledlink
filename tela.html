@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="page.detail.title">Tela — LedLink</title>
+    <meta name="description" data-i18n-content="page.detail.description" content="Detalhes da tela de LED: localização, tamanho, resolução e público estimado." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" data-i18n-content="page.detail.title" content="Tela — LedLink" />
+    <meta property="og:description" data-i18n-content="page.detail.description" content="" />
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/tokens.css" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Ir para o conteúdo</a>
+    <header id="site-header"></header>
+
+    <main id="main" class="page">
+      <div class="container">
+        <a class="back-link" href="catalogo.html">← <span data-i18n="detail.back">Voltar ao catálogo</span></a>
+        <div id="detail"></div>
+      </div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script type="module" src="src/app/detail.js"></script>
+  </body>
+</html>

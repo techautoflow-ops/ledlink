@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="page.home.title">LedLink — Conectando telas e marcas</title>
+    <meta name="description" data-i18n-content="page.home.description" content="O LedLink conecta donos de painéis de LED a empresas que querem anunciar." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" data-i18n-content="page.home.title" content="LedLink" />
+    <meta property="og:description" data-i18n-content="page.home.description" content="" />
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/tokens.css" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Ir para o conteúdo</a>
+    <header id="site-header"></header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Marketplace de painéis de LED</p>
+          <h1 data-i18n-html="hero.title">Sua tela no radar.<br /><span class="accent">Sua marca na rua.</span></h1>
+          <p class="lead" data-i18n="hero.subtitle">
+            O LedLink conecta quem tem painéis de LED a quem quer anunciar — com catálogo,
+            agenda e contratos em um só lugar.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="catalogo.html" data-i18n="hero.ctaPrimary">Ver telas disponíveis</a>
+            <a class="btn btn-ghost" href="#para-donos" data-i18n="hero.ctaSecondary">Tenho um painel</a>
+          </div>
+          <dl class="stats" id="hero-stats"></dl>
+        </div>
+      </section>
+
+      <section class="section" id="como-funciona">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n="how.title">Como funciona</h2>
+            <p data-i18n="how.subtitle">Três passos entre a tela vazia e a campanha no ar.</p>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <h3 data-i18n="how.step1.title">O dono cadastra a tela</h3>
+              <p data-i18n="how.step1.text">
+                Localização, tamanho, resolução e público estimado. A tela entra no catálogo
+                depois de aprovada.
+              </p>
+            </article>
+            <article class="step">
+              <h3 data-i18n="how.step2.title">O anunciante encontra</h3>
+              <p data-i18n="how.step2.text">
+                Filtros por cidade, tipo e público. O anunciante vê o que está livre e envia
+                o pedido de interesse.
+              </p>
+            </article>
+            <article class="step">
+              <h3 data-i18n="how.step3.title">Os dois fecham</h3>
+              <p data-i18n="how.step3.text">
+                Contrato, período e valor registrados na plataforma. A agenda da tela se
+                atualiza sozinha.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="para-donos">
+        <div class="container">
+          <div class="split">
+            <article class="panel panel--owner">
+              <h2 data-i18n="owners.title">Para donos de painel</h2>
+              <p data-i18n="owners.text">
+                Pare de controlar tela, cliente e data em três lugares diferentes.
+              </p>
+              <ul class="checklist">
+                <li data-i18n="owners.bullet1">Catálogo com todas as suas telas</li>
+                <li data-i18n="owners.bullet2">Agenda que impede sobreposição de contratos</li>
+                <li data-i18n="owners.bullet3">Pedidos e valores registrados, sem planilha</li>
+              </ul>
+              <button class="btn btn-primary" type="button" data-action="owner-signup" data-i18n="owners.cta">
+                Cadastrar minha tela
+              </button>
+            </article>
+
+            <article class="panel panel--advertiser">
+              <h2 data-i18n="advertisers.title">Para quem quer anunciar</h2>
+              <p data-i18n="advertisers.text">
+                Encontre a tela certa no lugar certo, sem ligar para cinco empresas.
+              </p>
+              <ul class="checklist">
+                <li data-i18n="advertisers.bullet1">Busca por cidade, tipo e público estimado</li>
+                <li data-i18n="advertisers.bullet2">Fotos e informações técnicas de cada tela</li>
+                <li data-i18n="advertisers.bullet3">Pedido de interesse em poucos cliques</li>
+              </ul>
+              <a class="btn btn-ghost" href="catalogo.html" data-i18n="advertisers.cta">Explorar o catálogo</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-band">
+            <h2 data-i18n="cta.title">Pronto para ocupar o espaço vazio?</h2>
+            <p data-i18n="cta.text">
+              O LedLink está em prévia. Explore o catálogo com dados de exemplo e veja como
+              vai funcionar.
+            </p>
+            <a class="btn btn-primary" href="catalogo.html" data-i18n="cta.button">Ver catálogo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script type="module" src="src/app/home.js"></script>
+  </body>
+</html>

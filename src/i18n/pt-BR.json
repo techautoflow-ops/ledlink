@@ -1,0 +1,152 @@
+{
+  "a11y": {
+    "skip": "Ir para o conteúdo"
+  },
+  "nav": {
+    "aria": "Navegação principal",
+    "catalog": "Catálogo",
+    "how": "Como funciona",
+    "owners": "Para donos",
+    "cta": "Ver telas",
+    "lang": "Idioma"
+  },
+  "page": {
+    "home": {
+      "title": "LedLink — Conectando telas e marcas",
+      "description": "O LedLink conecta donos de painéis de LED a empresas que querem anunciar. Catálogo, agenda e contratos em um só lugar."
+    },
+    "catalog": {
+      "title": "Catálogo de telas — LedLink",
+      "description": "Encontre painéis de LED para anunciar. Filtre por cidade, tipo, tamanho e público estimado."
+    },
+    "detail": {
+      "title": "Detalhes da tela — LedLink",
+      "description": "Localização, tamanho, resolução e público estimado da tela de LED."
+    },
+    "notFound": {
+      "title": "Página não encontrada — LedLink",
+      "heading": "404",
+      "subtitle": "Esta página não existe",
+      "text": "O endereço pode ter mudado ou a tela foi removida do catálogo.",
+      "cta": "Voltar ao início"
+    }
+  },
+  "hero": {
+    "eyebrow": "Marketplace de painéis de LED",
+    "title": "Sua tela no radar.<br /><span class=\"accent\">Sua marca na rua.</span>",
+    "subtitle": "O LedLink conecta quem tem painéis de LED a quem quer anunciar — com catálogo, agenda e contratos em um só lugar.",
+    "ctaPrimary": "Ver telas disponíveis",
+    "ctaSecondary": "Tenho um painel"
+  },
+  "stats": {
+    "screens": "Telas no catálogo",
+    "cities": "Cidades",
+    "audience": "Pessoas por dia"
+  },
+  "how": {
+    "title": "Como funciona",
+    "subtitle": "Três passos entre a tela vazia e a campanha no ar.",
+    "step1": {
+      "title": "O dono cadastra a tela",
+      "text": "Localização, tamanho, resolução e público estimado. A tela entra no catálogo depois de aprovada."
+    },
+    "step2": {
+      "title": "O anunciante encontra",
+      "text": "Filtros por cidade, tipo e público. O anunciante vê o que está livre e envia o pedido de interesse."
+    },
+    "step3": {
+      "title": "Os dois fecham",
+      "text": "Contrato, período e valor registrados na plataforma. A agenda da tela se atualiza sozinha."
+    }
+  },
+  "owners": {
+    "title": "Para donos de painel",
+    "text": "Pare de controlar tela, cliente e data em três lugares diferentes.",
+    "bullet1": "Catálogo com todas as suas telas",
+    "bullet2": "Agenda que impede sobreposição de contratos",
+    "bullet3": "Pedidos e valores registrados, sem planilha",
+    "cta": "Cadastrar minha tela"
+  },
+  "advertisers": {
+    "title": "Para quem quer anunciar",
+    "text": "Encontre a tela certa no lugar certo, sem ligar para cinco empresas.",
+    "bullet1": "Busca por cidade, tipo e público estimado",
+    "bullet2": "Informações técnicas claras de cada tela",
+    "bullet3": "Pedido de interesse em poucos cliques",
+    "cta": "Explorar o catálogo"
+  },
+  "cta": {
+    "title": "Pronto para ocupar o espaço vazio?",
+    "text": "O LedLink está em prévia. Explore o catálogo com dados de exemplo e veja como vai funcionar.",
+    "button": "Ver catálogo"
+  },
+  "catalog": {
+    "title": "Telas disponíveis",
+    "subtitle": "Filtre por cidade, tipo e público para encontrar o painel certo.",
+    "demo": "Prévia: as telas abaixo são exemplos fictícios para demonstrar a plataforma.",
+    "searchLabel": "Buscar",
+    "searchPlaceholder": "Nome, bairro ou ponto de referência",
+    "city": "Cidade",
+    "type": "Tipo",
+    "size": "Tamanho",
+    "audience": "Público/dia",
+    "clear": "Limpar",
+    "results": "{count} telas encontradas",
+    "resultsOne": "1 tela encontrada",
+    "emptyTitle": "Nenhuma tela encontrada",
+    "emptyText": "Tente remover algum filtro ou buscar outra cidade.",
+    "optionAll": "Todas",
+    "optionAllTypes": "Todos",
+    "sizeAny": "Qualquer",
+    "sizeSmall": "Até 15 m²",
+    "sizeMedium": "15 a 40 m²",
+    "sizeLarge": "Acima de 40 m²",
+    "audienceAny": "Qualquer",
+    "audienceLow": "Até 30 mil/dia",
+    "audienceMid": "30 a 100 mil/dia",
+    "audienceHigh": "Acima de 100 mil/dia"
+  },
+  "card": {
+    "view": "Ver detalhes",
+    "audience": "pessoas/dia"
+  },
+  "type": {
+    "indoor": "Indoor",
+    "outdoor": "Outdoor"
+  },
+  "detail": {
+    "back": "Voltar ao catálogo",
+    "specsTitle": "Ficha técnica",
+    "location": "Localização",
+    "type": "Tipo",
+    "size": "Tamanho",
+    "resolution": "Resolução",
+    "audience": "Público estimado",
+    "availability": "Disponibilidade",
+    "price": "Valor de referência",
+    "priceOnRequest": "Sob consulta",
+    "availableNow": "Disponível agora",
+    "availableFrom": "Disponível a partir de {date}",
+    "interest": "Tenho interesse",
+    "interestNote": "O contato abre no WhatsApp do dono com uma mensagem pronta.",
+    "notFoundTitle": "Tela não encontrada",
+    "notFoundText": "O link pode estar errado ou a tela saiu do catálogo.",
+    "interestMessage": "Olá! Vi a tela \"{name}\" ({city}) no LedLink e tenho interesse em anunciar. Pode me passar mais informações?",
+    "demo": "Prévia com dados fictícios."
+  },
+  "footer": {
+    "tagline": "O ponto de encontro entre painéis de LED e marcas que querem aparecer.",
+    "product": "Produto",
+    "catalog": "Catálogo",
+    "how": "Como funciona",
+    "owners": "Para donos",
+    "legal": "Legal",
+    "legalNote": "Termos de uso e política de privacidade em elaboração.",
+    "rights": "© {year} LedLink. Todos os direitos reservados.",
+    "demo": "Prévia da Fase 1a — dados de exemplo, nada é salvo."
+  },
+  "toast": {
+    "contactPending": "O canal de contato está em configuração. Em breve você poderá falar direto com o dono.",
+    "signupPending": "O cadastro de telas chega na próxima fase. Enquanto isso, explore o catálogo."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "a11y": {
+    "skip": "Skip to content"
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "catalog": "Catalog",
+    "how": "How it works",
+    "owners": "For owners",
+    "cta": "Browse screens",
+    "lang": "Language"
+  },
+  "page": {
+    "home": {
+      "title": "LedLink — Connecting screens and brands",
+      "description": "LedLink connects LED screen owners with businesses that want to advertise. Catalog, schedule and contracts in one place."
+    },
+    "catalog": {
+      "title": "Screen catalog — LedLink",
+      "description": "Find LED screens to advertise on. Filter by city, type, size and estimated audience."
+    },
+    "detail": {
+      "title": "Screen details — LedLink",
+      "description": "Location, size, resolution and estimated audience of the LED screen."
+    },
+    "notFound": {
+      "title": "Page not found — LedLink",
+      "heading": "404",
+      "subtitle": "This page does not exist",
+      "text": "The address may have changed or the screen was removed from the catalog.",
+      "cta": "Back to home"
+    }
+  },
+  "hero": {
+    "eyebrow": "LED screen marketplace",
+    "title": "Your screen on the radar.<br /><span class=\"accent\">Your brand on the street.</span>",
+    "subtitle": "LedLink connects LED screen owners with people who want to advertise — catalog, schedule and contracts in one place.",
+    "ctaPrimary": "See available screens",
+    "ctaSecondary": "I own a screen"
+  },
+  "stats": {
+    "screens": "Screens listed",
+    "cities": "Cities",
+    "audience": "People per day"
+  },
+  "how": {
+    "title": "How it works",
+    "subtitle": "Three steps between an empty screen and a live campaign.",
+    "step1": {
+      "title": "The owner lists the screen",
+      "text": "Location, size, resolution and estimated audience. The screen goes live after approval."
+    },
+    "step2": {
+      "title": "The advertiser finds it",
+      "text": "Filters by city, type and audience. Advertisers see what is free and send an interest request."
+    },
+    "step3": {
+      "title": "Both close the deal",
+      "text": "Contract, period and price recorded on the platform. The screen schedule updates itself."
+    }
+  },
+  "owners": {
+    "title": "For screen owners",
+    "text": "Stop tracking screen, client and dates in three different places.",
+    "bullet1": "A catalog with all your screens",
+    "bullet2": "A schedule that prevents overlapping contracts",
+    "bullet3": "Requests and prices recorded, no spreadsheets",
+    "cta": "List my screen"
+  },
+  "advertisers": {
+    "title": "For advertisers",
+    "text": "Find the right screen in the right place without calling five companies.",
+    "bullet1": "Search by city, type and estimated audience",
+    "bullet2": "Clear technical details for every screen",
+    "bullet3": "Interest request in a few clicks",
+    "cta": "Explore the catalog"
+  },
+  "cta": {
+    "title": "Ready to fill that empty space?",
+    "text": "LedLink is in preview. Explore the catalog with sample data and see how it will work.",
+    "button": "Browse catalog"
+  },
+  "catalog": {
+    "title": "Available screens",
+    "subtitle": "Filter by city, type and audience to find the right panel.",
+    "demo": "Preview: the screens below are fictional examples to demonstrate the platform.",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Name, neighborhood or landmark",
+    "city": "City",
+    "type": "Type",
+    "size": "Size",
+    "audience": "Audience/day",
+    "clear": "Clear",
+    "results": "{count} screens found",
+    "resultsOne": "1 screen found",
+    "emptyTitle": "No screens found",
+    "emptyText": "Try removing a filter or searching another city.",
+    "optionAll": "All",
+    "optionAllTypes": "All",
+    "sizeAny": "Any",
+    "sizeSmall": "Up to 15 m²",
+    "sizeMedium": "15 to 40 m²",
+    "sizeLarge": "Over 40 m²",
+    "audienceAny": "Any",
+    "audienceLow": "Up to 30k/day",
+    "audienceMid": "30k to 100k/day",
+    "audienceHigh": "Over 100k/day"
+  },
+  "card": {
+    "view": "View details",
+    "audience": "people/day"
+  },
+  "type": {
+    "indoor": "Indoor",
+    "outdoor": "Outdoor"
+  },
+  "detail": {
+    "back": "Back to catalog",
+    "specsTitle": "Specifications",
+    "location": "Location",
+    "type": "Type",
+    "size": "Size",
+    "resolution": "Resolution",
+    "audience": "Estimated audience",
+    "availability": "Availability",
+    "price": "Reference price",
+    "priceOnRequest": "On request",
+    "availableNow": "Available now",
+    "availableFrom": "Available from {date}",
+    "interest": "I'm interested",
+    "interestNote": "The contact opens the owner's WhatsApp with a ready message.",
+    "notFoundTitle": "Screen not found",
+    "notFoundText": "The link may be wrong or the screen left the catalog.",
+    "interestMessage": "Hi! I saw the screen \"{name}\" ({city}) on LedLink and I'd like to advertise. Could you share more details?",
+    "demo": "Preview with fictional data."
+  },
+  "footer": {
+    "tagline": "The meeting point between LED screens and brands that want to be seen.",
+    "product": "Product",
+    "catalog": "Catalog",
+    "how": "How it works",
+    "owners": "For owners",
+    "legal": "Legal",
+    "legalNote": "Terms of use and privacy policy are being drafted.",
+    "rights": "© {year} LedLink. All rights reserved.",
+    "demo": "Phase 1a preview — sample data, nothing is saved."
+  },
+  "toast": {
+    "contactPending": "The contact channel is being configured. Soon you will be able to reach the owner directly.",
+    "signupPending": "Screen registration arrives in the next phase. Meanwhile, explore the catalog."
+  }
+}

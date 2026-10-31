@@ -1,0 +1,66 @@
+/* ==========================================================================
+   LedLink — Design tokens
+   Fonte única de verdade para cores, tipografia e espaçamento.
+   Alterar aqui muda o site inteiro.
+   ========================================================================== */
+
+:root {
+  /* Cores base (tema escuro) */
+  --bg: #0a0e17;
+  --bg-soft: #0d1220;
+  --surface: #121826;
+  --surface-2: #182136;
+  --border: #233049;
+  --border-strong: #33415c;
+
+  /* Marca */
+  --primary: #00e5ff;
+  --primary-strong: #00b8cc;
+  --primary-soft: rgba(0, 229, 255, 0.12);
+  --secondary: #ff2e88;
+  --secondary-soft: rgba(255, 46, 136, 0.12);
+
+  /* Semânticas */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  /* Texto */
+  --text: #e6edf7;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+
+  /* Tipografia */
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* Espaçamento (escala de 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* Formas */
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* Sombras e brilho */
+  --glow-primary: 0 0 40px rgba(0, 229, 255, 0.25);
+  --glow-secondary: 0 0 40px rgba(255, 46, 136, 0.18);
+  --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.35);
+
+  /* Layout */
+  --container: 1120px;
+  --header-height: 72px;
+
+  /* Movimento */
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --dur: 180ms;
+}
