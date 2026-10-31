@@ -89,10 +89,7 @@ function cardMarkup(screen) {
   </a>`;
 }
 
-function render() {
-  mountChrome({ active: "catalog" });
-  fillSelects();
-
+function renderResults() {
   const results = filterScreens(screens, filters);
   const hasResults = results.length > 0;
 
@@ -104,6 +101,12 @@ function render() {
   els.grid.innerHTML = results.map(cardMarkup).join("");
   els.grid.hidden = !hasResults;
   els.empty.hidden = hasResults;
+}
+
+function renderAll() {
+  mountChrome({ active: "catalog" });
+  fillSelects();
+  renderResults();
 }
 
 function readInputs() {
@@ -120,21 +123,27 @@ function clearFilters() {
   filters.type = "";
   filters.size = "";
   filters.audience = "";
+
   els.q.value = "";
-  render();
+  els.city.value = "";
+  els.type.value = "";
+  els.size.value = "";
+  els.audience.value = "";
+
+  renderResults();
   els.q.focus();
 }
 
 function bindEvents() {
   els.q.addEventListener("input", () => {
     readInputs();
-    render();
+    renderResults();
   });
 
   [els.city, els.type, els.size, els.audience].forEach((select) => {
     select.addEventListener("change", () => {
       readInputs();
-      render();
+      renderResults();
     });
   });
 
@@ -154,9 +163,9 @@ async function boot() {
     return;
   }
 
-  render();
+  renderAll();
   bindEvents();
-  onLangChange(render);
+  onLangChange(renderAll);
 }
 
 boot().catch((error) => console.error("[catalog]", error));
